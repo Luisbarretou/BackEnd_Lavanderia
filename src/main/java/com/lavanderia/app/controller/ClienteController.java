@@ -1,8 +1,13 @@
 package com.lavanderia.app.controller;
 
-import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+import com.lavanderia.app.service.IClienteService;
+
+@RestController
 public class ClienteController {
 
+	private IClienteService clienteService;
+	
+	
 }
