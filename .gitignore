@@ -1,6 +1,3 @@
-#Se ignora la carpeta "ignorar" como prueba
-ignorar
-
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
